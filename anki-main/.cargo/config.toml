@@ -1,0 +1,12 @@
+[env]
+STRINGS_PY = { value = "out/pylib/anki/_fluent.py", relative = true }
+STRINGS_JS = { value = "out/ts/lib/ftl.js", relative = true }
+STRINGS_DTS = { value = "out/ts/lib/ftl.d.ts", relative = true }
+DESCRIPTORS_BIN = { value = "out/rslib/proto/descriptors.bin", relative = true }
+# build script will append .exe if necessary
+PROTOC = { value = "out/extracted/protoc/bin/protoc", relative = true }
+PYO3_NO_PYTHON = "1"
+MACOSX_DEPLOYMENT_TARGET = "10.13.4"
+
+[term]
+color = "always"

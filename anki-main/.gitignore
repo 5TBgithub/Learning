@@ -1,0 +1,17 @@
+__pycache__
+.DS_Store
+anki.prof
+target
+/user.bazelrc
+.dmypy.json
+/.idea/
+/.vscode
+/.bazel
+/windows.bazelrc
+/out
+node_modules
+.n2_db
+.ninja_log
+.ninja_deps
+/extra
+yarn-error.log
